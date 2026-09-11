@@ -1,5 +1,7 @@
 # PlugStatem
 
+[![CI](https://github.com/jessestimpson/plug_statem/actions/workflows/ci.yml/badge.svg)](https://github.com/jessestimpson/plug_statem/actions/workflows/ci.yml)
+
 A `gen_statem`-style event loop that fits the Plug contract.
 
 Elixir HTTP servers using Plug require every write to a `Plug.Conn` to come from the
